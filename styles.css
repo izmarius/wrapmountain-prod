@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 /*! tailwindcss v2.1.4 | MIT License | https://tailwindcss.com */
 
@@ -32193,7 +32193,7 @@ video {
   box-sizing: border-box;
   font-family: Poppins;
   --tw-text-opacity: 1;
-  color: rgba(243, 244, 246, var(--tw-text-opacity))
+  color: rgba(243, 244, 246, var(--tw-text-opacity));
 }
 
 .showcase {
@@ -32207,7 +32207,7 @@ video {
   position: absolute;
   right: 0px;
   width: 100vw;
-  z-index: 10
+  z-index: 10;
 }
 
 @media (min-width: 768px){
@@ -32217,7 +32217,7 @@ video {
 }
 
 .showcase-active {
-  right: 18rem
+  right: 18rem;
 }
 
 .showcase-header {
@@ -32228,13 +32228,13 @@ video {
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 50
+  z-index: 50;
 }
 
 .logo {
   height: 11rem;
   padding-left: 1.25rem;
-  width: 11rem
+  width: 11rem;
 }
 
 @media (min-width: 640px){
@@ -32255,7 +32255,7 @@ video {
 .toggle {
   cursor: pointer;
   padding-right: 4rem;
-  position: relative
+  position: relative;
 }
 
 @media (min-width: 768px){
@@ -32270,7 +32270,7 @@ video {
   overflow: hidden;
   position: absolute;
   top: 0px;
-  left: 0px
+  left: 0px;
 }
 
 .overlay {
@@ -32281,13 +32281,13 @@ video {
   top: 0px;
   left: 0px;
   width: 100vw;
-  mix-blend-mode: overlay
+  mix-blend-mode: overlay;
 }
 
 .text {
   padding-top: 5rem;
   position: relative;
-  z-index: 20
+  z-index: 20;
 }
 
 .title {
@@ -32296,7 +32296,7 @@ video {
   line-height: 2.5rem;
   --tw-text-opacity: 1;
   color: rgba(178, 208, 198, var(--tw-text-opacity));
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px){
@@ -32312,7 +32312,7 @@ video {
   line-height: 2.25rem;
   --tw-text-opacity: 1;
   color: rgba(254, 178, 94, var(--tw-text-opacity));
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px){
@@ -32327,7 +32327,7 @@ video {
   line-height: 1.75rem;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-  max-width: 32rem
+  max-width: 32rem;
 }
 
 @media (min-width: 768px){
@@ -32344,11 +32344,11 @@ video {
   list-style-type: none;
   position: absolute;
   bottom: 1.25rem;
-  z-index: 10
+  z-index: 10;
 }
 
 .social-item {
-  padding-right: 1.25rem
+  padding-right: 1.25rem;
 }
 
 .social-item:hover{
@@ -32364,19 +32364,19 @@ video {
   position: absolute;
   top: 0px;
   right: 0px;
-  width: 18rem
+  width: 18rem;
 }
 
 .menu-list {
   list-style-type: none;
-  position: relative
+  position: relative;
 }
 
 .menu-list-item {
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
-  color: rgba(55, 65, 81, var(--tw-text-opacity))
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 
 .menu-list-item:hover{
@@ -32392,7 +32392,25 @@ video {
 }
 
 .slides {
-  display: none
+  display: none;
+  min-height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-translate-x: -50%;
+  --tw-translate-y: -50%;
 }
 
 @media (min-width: 640px){
