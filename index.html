@@ -13,7 +13,7 @@
     />
     <title>WrapMountain</title>
   </head>
-  <body class="wrapper">
+  <body class="wrapper" onload="loadWelcome(), carousel()">
     <section class="showcase overflow-hidden">
       <header class="showcase-header">
         <img class="logo" src="./img/Logo-3.png" alt="WrapMountain logo" />
@@ -26,20 +26,29 @@
       </header>
 
       <img class="slides" src="./img/P3140061.jpg" alt="" srcset="" />
-
       <img class="slides" src="./img/PC300041.jpg" alt="" srcset="" />
-
       <img class="slides" src="./img/PA270034.jpg" alt="" srcset="" />
-
       <img class="slides" src="./img/P2060071.jpg" alt="" srcset="" />
-
       <img class="slides" src="./img/P5300030.jpg" alt="" srcset="" />
-
       <img class="slides" src="./img/PA270018.jpg" alt="" srcset="" />
 
-      <div class="overlay"></div>
+      <div id="overlay-screen" class="overlay">
+        <article class="overlay-text hidden">
+          <h2 class="title">Welcome to</h2>
+          <h3 class="subtitle">Wrap Mountain</h3>
+        </article>
+      </div>
 
       <article class="text">
+        <h2 class="title">Hike More</h2>
+        <h3 class="subtitle">Worry Less</h3>
+        <p class="text-content">
+          Home of nature lovers, enthusiastic hikers, fearless climbers, crazy &
+          friendly campers and passionate earth lurkers.
+        </p>
+      </article>
+
+      <article class="text about hidden">
         <h2 class="title">Hike More</h2>
         <h3 class="subtitle">Worry Less</h3>
         <p class="text-content">
@@ -64,10 +73,11 @@
 
     <section class="menu">
       <ul class="menu-list">
-        <li class="menu-list-item"><a href="#">Home</a></li>
-        <li class="menu-list-item"><a href="#">About</a></li>
+        <li id="home" class="menu-list-item">Home</li>
+        <li id="about" class="menu-list-item">About</li>
       </ul>
     </section>
+
     <script src="index.js"></script>
   </body>
 </html>

@@ -32228,7 +32228,7 @@ video {
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 50;
+  z-index: 40;
 }
 
 .logo {
@@ -32281,6 +32281,32 @@ video {
   top: 0px;
   left: 0px;
   width: 100vw;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1000ms;
+  mix-blend-mode: overlay;
+}
+
+.home-overlay {
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  z-index: 50;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1000ms;
   mix-blend-mode: overlay;
 }
 
@@ -32373,6 +32399,7 @@ video {
 }
 
 .menu-list-item {
+  cursor: pointer;
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
